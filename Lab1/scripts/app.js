@@ -79,6 +79,7 @@ if(pageTitle === 'Services'){
     newHeader.innerHTML = 'This page displays three of my best skills that I offer my clients. One being customer service, I worked as a receptionist at Whitby Mazda for a summer and it really benefited my social skills and customer service skills. In the future if I need to talk with clients about code requirements, I have the means to do so respectfully and skillfully. The next skill I would like to dislpay is Web Design(mostly the colour coding parts, still trying to get the positioning down), I have taken a lot of interest in it the best 2 years and I feel it is one of my strong suits out of all the coding I have done. It is something I actually enjoy doing, it is not something I would be forcing myself to do. The final skill I have is computer programming, I am aware of how broad computer programming is, but one of my skills is knowing a lot of different and various languages and easily switching between them. I am by no means a computer programming genius and I do not know everything there is to know, but during my Computer Programming course I found it fairly easy for myself to switch between languages while doing multiple assignments.';
     //appending <p> element to the <body> element so it displays in the body
     document.getElementsByTagName('body')[0].appendChild(newHeader);
+    
 }
 //if the title is About Us
 if(pageTitle === 'About Us'){

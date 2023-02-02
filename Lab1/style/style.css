@@ -11,7 +11,7 @@ img{
 
 .gamePicture{
     float: left;
-    width: 300px;
+    width: 500px;
     height: auto;
     border-radius: 50px;
 }
@@ -33,7 +33,7 @@ img{
 /* custom class for character image to make it go to the right and smaller */
 .jettPicture{
     float: right;
-    width: 300px;
+    width: 410px;
     height: auto;
     border-radius: 50px;
 }
@@ -43,23 +43,23 @@ img{
     float: left;
     width: 320px;
     height: auto;
-    border-radius: 50px;
+    margin-top: 150px;
 }
 
 /* custom class for web design image to make it move left and smaller */
 .designPicture{
     float: left;
     width: 690px;
-    height: auto;
-    border-radius: 50px;
+    height: 267px;
+    margin-top: 150px;
 }
 
 /* custom class for coding image to make it center and smaller */
 .codingPicture{
     float: right;
-    width: 525px;
-    height: auto;
-    border-radius: 50px;
+    width: 509px;
+    height: 267px;
+    margin-top: 150px;
 }
 
 /* custom class for dog image to make it go to the left and smaller */
@@ -67,6 +67,7 @@ img{
     float: left;
     width: 300px;
     height: auto;
+    border-radius: 50px;
 }
 
 /* custom class for pc image to make it go to the left and smaller */
@@ -74,14 +75,36 @@ img{
     float: left;
     width: 300px;
     height: auto;
+    border-radius: 50px;
 }
 
 /* custom class for tennis image to make it go to the right and smaller */
 .tennisPicture{
-    float: right;
-    width: 525px;
+    float: left;
+    width: 650px;
     height: auto;
     border-radius: 50px;
+}
+
+/* custom class for resume image to make it go to the right and smaller */
+.resumeOnePicture{
+    float: left;
+    width: 500px;
+    height: auto;
+}
+
+/* custom class for resume image to make it go to the left and smaller */
+.resumetwoPicture{
+    float: left;
+    width: 500px;
+    height: auto;
+}
+
+/* custom class for resume image to make it go to the left and smaller */
+.resumeThreePicture{
+    float: left;
+    width: 465px;
+    height: auto;
 }
 
 
@@ -103,16 +126,18 @@ it fixed */
 /* custom class to make the text on the product page a different font and positioned */
 .productText{
     font-family: cursive;
-    margin: 50px;
+    margin: 500px;
 }
 
 /* custom class to make the text on the service page a different font and positioned */
 .serviceText{
     font-family: cursive;
-    margin: 100px;
+    position: absolute;
 }
 
 /* custom class to make the text on the about page a different font and positioned */
 .aboutText{
     font-family: cursive;
+    bottom: 10px;
+    width: 50%;
 }
