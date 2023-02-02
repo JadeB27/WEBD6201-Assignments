@@ -1,0 +1,118 @@
+/* Changes the background image for the every body element */
+body{
+    background-image: url('../images/pastel.jpg');
+}
+
+/* Changes the size, placement, and adds a border for every <img> element */
+img{
+    display: block;
+    border: 6px double black;
+}
+
+.gamePicture{
+    float: left;
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* custom class for show image to make it go to the left and smaller */
+.showPicture{
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+/* custom class for movie image to make it go to the right and smaller */
+.moviePicture{
+    float: right;
+    width: 300px;
+    height: auto;
+}
+
+/* custom class for character image to make it go to the right and smaller */
+.jettPicture{
+    float: right;
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* custom class for customer service image to make it move to the left and smaller */
+.customerPicture{
+    float: left;
+    width: 320px;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* custom class for web design image to make it move left and smaller */
+.designPicture{
+    float: left;
+    width: 690px;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* custom class for coding image to make it center and smaller */
+.codingPicture{
+    float: right;
+    width: 525px;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* custom class for dog image to make it go to the left and smaller */
+.dogPicture{
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+/* custom class for pc image to make it go to the left and smaller */
+.pcPicture{
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+/* custom class for tennis image to make it go to the right and smaller */
+.tennisPicture{
+    float: right;
+    width: 525px;
+    height: auto;
+    border-radius: 50px;
+}
+
+
+/* custom class for navbar that when added, changes teh colour and position to make 
+it fixed */
+.myNavbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* custom class to make the text on the home page centered and a different font */
+.homeText{
+    font-family: cursive;
+    text-align: center;
+    margin: 250px;
+}
+
+/* custom class to make the text on the product page a different font and positioned */
+.productText{
+    font-family: cursive;
+    margin: 50px;
+}
+
+/* custom class to make the text on the service page a different font and positioned */
+.serviceText{
+    font-family: cursive;
+    margin: 100px;
+}
+
+/* custom class to make the text on the about page a different font and positioned */
+.aboutText{
+    font-family: cursive;
+}

@@ -1,1 +1,61 @@
-    
+<!--
+* Name: Jade Bedlington
+* Student ID: 100822822
+* Date Completed: 2023-02-01
+*/
+-->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title for tab -->
+    <title>Home</title>
+    <!-- connecting to the boostrap style sheet-->
+    <link 
+        rel="stylesheet" 
+        href="./node_modules/bootstrap/dist/css/bootstrap.min.css" 
+    />
+    <!-- connecting to the fontawesome stylesheet -->
+    <link 
+        rel="stylesheet" 
+        href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <!-- connecting to the style.css stylesheet -->
+    <link 
+        rel="stylesheet" 
+        href="./style/style.css"
+    />
+ </head>
+ <!-- Start of body -->
+ <body>
+    <!-- start of the list in nav bar -->
+    <ul class="nav">
+    <li class="nav-item">
+      <!-- link for index page -->
+      <a class="nav-link active" id="indexLink" aria-current="page" href="#">Home</a>
+    </li>
+    <!-- link for product -->
+    <li class="nav-item">
+      <a class="nav-link" id="productLink" href="product.html">Products</a>
+    </li>
+    <!-- link for services page -->
+    <li class="nav-item">
+      <a class="nav-link" id="serviceLink" href="services.html">Services</a>
+    </li>
+    <!-- link for about page -->
+    <li class="nav-item">
+      <a class="nav-link" id="aboutLink" href="about.html">About Us</a>
+    </li>
+    <!-- link for contact page -->
+    <li class="nav-item">
+        <a class="nav-link" id="contactLink" href="contact.html">Contact Us</a>
+      </li>
+  </ul>
+  <!-- connects app.js file -->
+  <script src="./scripts/app.js"></script>
+<!-- end of body -->  
+</body>
+</html>   

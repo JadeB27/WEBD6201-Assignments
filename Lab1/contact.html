@@ -1,0 +1,107 @@
+<!--
+* Name: Jade Bedlington
+* Student ID: 100822822
+* Date Completed: 2023-02-01
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tab Title -->
+   <title>Contact Us</title>
+    <!-- Link for bootstrap -->
+   <link 
+       rel="stylesheet" 
+       href="./node_modules/bootstrap/dist/css/bootstrap.min.css" 
+   />
+    <!-- Link for fontawesome -->
+   <link 
+       rel="stylesheet" 
+       href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+   />
+   <link 
+        rel="stylesheet" 
+        href="./style/style.css"
+    />
+</head>
+<body>
+   <!-- Start of nav bar --> 
+   <ul class="nav">
+    <!-- link for index.html --> 
+   <li class="nav-item">
+     <a class="nav-link active" id="indexLink" aria-current="page" href="index.html">Home</a>
+   </li>
+   <!-- link for product.html --> 
+   <li class="nav-item">
+     <a class="nav-link" id="productLink" href="product.html">Products</a>
+   </li>
+   <!-- link for services.html --> 
+   <li class="nav-item">
+     <a class="nav-link" id="serviceLink" href="services.html">Services</a>
+   </li>
+   <!-- link for about.html --> 
+   <li class="nav-item">
+     <a class="nav-link" id="aboutLink" href="about.html">About</a>
+   </li>
+   <!-- link for contact.html --> 
+   <li class="nav-item">
+       <a class="nav-link" id="contactLink" href="#">Contact</a>
+     </li>
+ </ul>
+ <!-- Start of form -->
+  <!-- Reference: https://getbootstrap.com/docs/5.0/forms/overview/ -->
+
+
+ <!-- First Name -->
+ <form>
+    <br>
+  <div class="mb-3">
+    <!-- label for first name -->
+    <label for="firstName" class="form-label">First Name:</label>
+    <!-- textbox for first name -->
+    <input type="text" class="form-control" id="firstName" placeholder="Ex: John">
+  </div>
+  <!-- Breakline(space between each textbox) -->
+  <br>
+  <!-- Last Name -->
+  <div class="mb-3">
+    <!-- label for last name -->
+    <label for="lastName" class="form-label">Last Name:</label>
+    <!-- textbox for last name -->
+    <input type="text" class="form-control" id="lastName" placeholder="Ex: Doe">
+  </div>
+  <br>
+  <!-- Contact Number -->
+  <div class="mb-3">
+    <!-- label for contact number -->
+    <label for="telNo" class="form-label">Contact Number:</label>
+    <!-- textbox for contact number -->
+    <input type="tel" class="form-control" id="telNo" placeholder="905-888-7777">
+  </div>
+ <br>
+ <!-- Email Address -->
+ <div class="mb-3">
+    <!-- label for email address -->
+    <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+    <!-- textbox for email address -->
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <br>
+  <!-- Message -->
+  <div class="mb-3">
+    <!-- label for message -->
+    <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+    <!-- textbox for message -->
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message goes here..."></textarea>
+  </div>
+  <br>
+  <!-- Submit button -->
+  <button id= "submit-button" type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <!-- connects app.js file -->
+  <script src="./scripts/app.js"></script>
+</body>
+</html>   
