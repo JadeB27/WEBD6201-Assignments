@@ -6,84 +6,37 @@ body{
 /* Changes the size, placement, and adds a border for every <img> element */
 img{
     display: block;
-    border: 6px double black;
-}
-
-.gamePicture{
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
     width: 500px;
-    height: auto;
     border-radius: 50px;
-}
-
-/* custom class for show image to make it go to the left and smaller */
-.showPicture{
+    border: 6px double black;
     float: left;
+    position: relative;
+    margin-top: 70px;
+}
+.productImg{
     width: 300px;
-    height: auto;
 }
-
-/* custom class for movie image to make it go to the right and smaller */
-.moviePicture{
-    float: right;
-    width: 300px;
-    height: auto;
+.titles{
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    right: -10px;
+    font-family: cursive;
 }
-
-/* custom class for character image to make it go to the right and smaller */
-.jettPicture{
-    float: right;
-    width: 410px;
-    height: auto;
-    border-radius: 50px;
+/* Changes the font, placement, and moves the text to the right 10 pixels  */
+figcaption{
+    align-items: right;
+    font-family: cursive;
+    position: relative;
+    right: -10px;
 }
-
-/* custom class for customer service image to make it move to the left and smaller */
-.customerPicture{
-    float: left;
-    width: 320px;
-    height: auto;
-    margin-top: 150px;
-}
-
-/* custom class for web design image to make it move left and smaller */
-.designPicture{
-    float: left;
-    width: 690px;
-    height: 267px;
-    margin-top: 150px;
-}
-
-/* custom class for coding image to make it center and smaller */
-.codingPicture{
-    float: right;
-    width: 509px;
-    height: 267px;
-    margin-top: 150px;
-}
-
-/* custom class for dog image to make it go to the left and smaller */
-.dogPicture{
-    float: left;
-    width: 300px;
-    height: auto;
-    border-radius: 50px;
-}
-
-/* custom class for pc image to make it go to the left and smaller */
-.pcPicture{
-    float: left;
-    width: 300px;
-    height: auto;
-    border-radius: 50px;
-}
-
-/* custom class for tennis image to make it go to the right and smaller */
-.tennisPicture{
-    float: left;
-    width: 650px;
-    height: auto;
-    border-radius: 50px;
+.gallery {
+    height: fit-content;
+    width: fit-content;
+    display: contents;
 }
 
 /* custom class for resume image to make it go to the right and smaller */
@@ -153,4 +106,41 @@ it fixed */
 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+
+#btnDivToggle,
+#btnRegReset,
+#btnRegSubmit,
+#btnRegReset{
+    border-radius: 10px;
+    background-color: #aaa;
+    color: #212529;
+    line-height: 1.5;
+    padding: 5px;
+    margin: 5px;
+    min-width: 125px;
+    font-size: 16px;
+    display: inline;
+}
+
+.toggleDiv{
+    height: 50px;
+}
+  
+.toggleShow{
+    display: block;
+}
+  
+.toggleHide{
+    display: none;
+}
+
+/* changes all the error messages with these id's to have a red background */
+#errorMessage,
+#errorMessage2,
+#errorMessage3,
+#errorMessage4,
+#errorMessage5
+{
+    background-color: #ffcccb;
 }

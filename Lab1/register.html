@@ -1,104 +1,119 @@
 <!--
 * Name: Jade Bedlington
 * Student ID: 100822822
-* Date Completed: 2023-02-01
+* Date Completed: 2023-02-16
 */
 -->
 
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- title for tab -->
-    <title>Register</title>
-    <!-- connecting to the boostrap style sheet-->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <!-- connecting to the fontawesome stylesheet -->
-    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
-    <!-- connecting to the style.css stylesheet -->
-    <link rel="stylesheet" href="./style/style.css" />
-</head>
-<!-- Start of body -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title for tab -->
+        <title>Register</title>
+        <!-- connecting to the boostrap style sheet-->
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <!-- connecting to the fontawesome stylesheet -->
+        <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+        <!-- connecting to the style.css stylesheet -->
+        <link rel="stylesheet" href="./style/style.css" />
+    </head>
+    <!-- Start of body -->
+    <body>
+        <!-- start of the list in nav bar -->
+        <ul class="nav">
+            <li class="nav-item">
+                <!-- link for index page -->
+                <a class="nav-link active" id="indexLink" aria-current="page" href="index.html">Home</a>
+            </li>
+            <!-- link for product -->
+            <li class="nav-item">
+                <a class="nav-link" id="productLink" href="product.html">Products</a>
+            </li>
+            <!-- link for services page -->
+            <li class="nav-item">
+                <a class="nav-link" id="serviceLink" href="services.html">Services</a>
+            </li>
+            <!-- link for about page -->
+            <li class="nav-item">
+                <a class="nav-link" id="aboutLink" href="about.html">About Us</a>
+            </li>
+            <!-- link for contact page -->
+            <li class="nav-item">
+                <a class="nav-link" id="contactLink" href="contact.html">Contact Us</a>
+            </li>
+            <!-- link for login page -->
+            <li class="nav-item">
+                <a class="nav-link" id="loginLink" href="login.html">Login</a>
+            </li>
+            <!-- register for login page -->
+            <li class="nav-item">
+                <a class="nav-link" id="registerLink" href="#">Register</a>
+            </li>
+        </ul>
 
-<body>
-    <!-- start of the list in nav bar -->
-    <ul class="nav">
-        <li class="nav-item">
-            <!-- link for index page -->
-            <a class="nav-link active" id="indexLink" aria-current="page" href="#">Home</a>
-        </li>
-        <!-- link for product -->
-        <li class="nav-item">
-            <a class="nav-link" id="productLink" href="product.html">Products</a>
-        </li>
-        <!-- link for services page -->
-        <li class="nav-item">
-            <a class="nav-link" id="serviceLink" href="services.html">Services</a>
-        </li>
-        <!-- link for about page -->
-        <li class="nav-item">
-            <a class="nav-link" id="aboutLink" href="about.html">About Us</a>
-        </li>
-        <!-- link for contact page -->
-        <li class="nav-item">
-            <a class="nav-link" id="contactLink" href="contact.html">Contact Us</a>
-        </li>
-    </ul>
-
-    <!-- start of form -->
-    <!-- Reference: Registration modal from https://mdbootstrap.com/docs/standard/extended/registration/ -->
-    <section class="vh-100 bg-image">
-        <div class="mask d-flex align-items-center h-100 gradient-custom-3">
-            <div class="container h-100">
-                <div class="row d-flex justify-content-center align-items-center h-100">
-                    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                        <div class="card" style="border-radius: 15px;">
-                            <div class="card-body p-5">
-                                <!-- Title for the register page -->
-                                <h2 class="text-uppercase text-center mb-5">Register</h2>
-                                    <!-- sub heading for the page using a paragraph element -->
-                                    <p class="text-center">Create your own account. It's free and only takes minutes</p>
-                                <form>
-                                    <div class="form-outline mb-4">
-                                        <!-- input box(textbox) for the first name -->
-                                        <input type="text" id="firstNameRegister" class="form-control form-control-lg" placeholder="First Name" />
-                                    </div>
-                                    <div class="form-outline mb-4">
-                                        <!-- input box(textbox) for the last name -->
-                                        <input type="text" id="lastNameRegister" class="form-control form-control-lg" placeholder="Last Name" />
-                                    </div>
-                                    <div class="form-outline mb-4">
-                                        <!-- input box(textbox) for the email address -->
-                                        <input type="email" id="emailRegister" class="form-control form-control-lg" placeholder="Email" />
-                                    </div>
-                                    <div class="form-outline mb-4">
-                                        <!-- input box(textbox) for the password -->
-                                        <input type="password" id="passwordRegister" class="form-control form-control-lg" placeholder="Password" />
-                                    </div>
-                                    <div class="form-outline mb-4">
-                                        <!-- input box(textbox) for the confirm password -->
-                                        <input type="password" id="confirmPasswordRegister" class="form-control form-control-lg" placeholder="Confirm Password" />
-                                    </div>
-                                    <div class="d-flex justify-content-center">
-                                        <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
-                                    </div>
-                                    <!-- paragraph element adding the text for the already have an account(with added classes) + the href to the 
-                                        login page if they want to just log in -->
-                                    <p class="text-center text-muted mt-5 mb-0">Already have an account? <a href="login.html" class="fw-bold text-body"><u>Sign in</u></a></p>
-                                </form>
+        <!-- start of form -->
+        <!-- Reference: Registration modal from https://mdbootstrap.com/docs/standard/extended/registration/ -->
+        <section class="vh-100 bg-image">
+            <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+                <div class="container h-100">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+                            <div class="card" style="border-radius: 15px;">
+                                <div class="card-body p-5">
+                                    <!-- Title for the register page -->
+                                    <h2 class="text-uppercase text-center mb-5">Register</h2>
+                                        <!-- sub heading for the page using a paragraph element -->
+                                        <p class="text-center">Create your own account. It's free and only takes minutes</p>
+                                    <form id="formRegister">
+                                        <div class="form-outline mb-4" id="firstNameDiv">
+                                            <!-- input box(textbox) for the first name -->
+                                            <input type="text" id="firstNameRegister" class="form-control form-control-lg" placeholder="First Name" />
+                                        </div>
+                                        <div class="form-outline mb-4" id="lastNameDiv">
+                                            <!-- input box(textbox) for the last name -->
+                                            <input type="text" id="lastNameRegister" class="form-control form-control-lg" placeholder="Last Name" />
+                                        </div>
+                                        <div class="form-outline mb-4" id="emailDiv">
+                                            <!-- input box(textbox) for the email address -->
+                                            <input type="email" id="emailRegister" class="form-control form-control-lg" placeholder="Email" />
+                                        </div>
+                                        <div class="form-outline mb-4" id="passwordDiv">
+                                            <!-- input box(textbox) for the password -->
+                                            <input type="password" id="passwordRegister" class="form-control form-control-lg" placeholder="Password" />
+                                        </div>
+                                        <div class="form-outline mb-4" id="confirmPasswordDiv">
+                                            <!-- input box(textbox) for the confirm password -->
+                                            <input type="password" id="confirmPasswordRegister" class="form-control form-control-lg" placeholder="Confirm Password" />
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" id="btnRegSubmit">Register</button>
+                                        </div>
+                                        <div class="d-flex justify-content-center">
+                                            <button type="reset" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body"
+                                                id="btnRegReset">Reset</button>
+                                        </div>
+                                        <!-- paragraph element adding the text for the already have an account(with added classes) + the href to the 
+                                            login page if they want to just log in -->
+                                        <p class="text-center text-muted mt-5 mb-0">Already have an account? <a href="login.html" class="fw-bold text-body"><u>Sign in</u></a></p>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- end of form code -->
-    <!-- connects app.js file -->
-    <script src="./scripts/app.js"></script>
-    <!-- end of body -->
-</body>
+        </section>
+        <!-- end of form code -->
+        <!-- connects .js files and jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script type="module" src="./scripts/form.js"></script>
+        <script type="module" src="./scripts/user.js"></script>
+        <script type="module" src="./scripts/app.js"></script>
+        <!-- end of body -->
+    </body>
 </html>

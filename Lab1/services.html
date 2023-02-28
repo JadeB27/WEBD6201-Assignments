@@ -52,17 +52,47 @@
     <li class="nav-item">
         <a class="nav-link" id="contactLink" href="contact.html">Contact Us</a>
       </li>
+    <!-- link for login page -->
+    <li class="nav-item">
+      <a class="nav-link" id="loginLink" href="login.html">Login</a>
+  </li>
+  <!-- register for login page -->
+  <li class="nav-item">
+    <a class="nav-link" id="registerLink" href="register.html">Register</a>
+  </li>
  </ul>
  <!-- pictures for services page -->
  <br>
- <image class="customerPicture" src="./images/customerService.jpg" />
+ <!-- <image class="customerPicture" src="./images/customerService.jpg" />
  <image class="designPicture" src="./images/webDesign.png" />
  <image class="codingPicture" src="./images/Computer-Programmer.jpg" />
  <image class="resumeOnePicture" src="./images/1.png" />
  <image class="resumetwoPicture" src="./images/2.png" />
- <image class="resumeThreePicture" src="./images/3.png" />
+ <image class="resumeThreePicture" src="./images/3.png" /> -->
+<main>
+  <!-- Add gallery together -->
+  <div class="gallery">
+    <img class="gamePicture" src="./images/customerService.jpg" alt="Customer service picture">
+    <p class="titles">This page displays three of my best skills that I offer my clients</p>
+    <figcaption>One being customer service, I worked as a receptionist at Whitby Mazda for a summer and it really benefited my social 
+    skills and customer service skills. In the future if I need to talk with clients about code requirements, I have the means to do 
+    so respectfully and skillfully.</figcaption>
+    <br>
+    <figcaption>The next skill I would like to dislpay is Web Design(mostly the colour coding parts, still trying to get the positioning
+    down), I have taken a lot of interest in it, the last 2 years and I feel it is one of my strong suits out of all the coding I have done.
+    It is something I actually enjoy doing, it is not something I would be forcing myself to do.</figcaption>
+    <br>
+    <figcaption>The final skill I have is computer programming, I am aware of how broad computer programming is, but one of my skills is
+    knowing a lot of different and various languages and easily switching between them.I am by no means a computer programming genius and I do not know everything
+    there is to know, but during my Computer Programming course I found it fairly easy for myself to switch between languages while doing multiple assignments.</figcaption>
+  </div>
+</main>
 
- <!-- connects app.js file -->
- <script src="./scripts/app.js"></script>
+  <!-- connects .js files and jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script type="module" src="./scripts/form.js"></script>
+  <script type="module" src="./scripts/user.js"></script>
+  <script type="module" src="./scripts/app.js"></script>
 </body>
 </html>   

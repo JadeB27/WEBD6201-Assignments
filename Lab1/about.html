@@ -52,13 +52,42 @@
    <li class="nav-item">
        <a class="nav-link" id="contactLink" href="contact.html">Contact Us</a>
      </li>
+   <!-- link for login page -->
+   <li class="nav-item">
+    <a class="nav-link" id="loginLink" href="login.html">Login</a>
+  </li>
+  <!-- register for login page -->
+  <li class="nav-item">
+    <a class="nav-link" id="registerLink" href="register.html">Register</a>
+  </li>
  </ul>
 <!-- pictures for about page -->
  <br>
- <image class="dogPicture" src="./images/Ozzy.jpg" />
+ <!-- <image class="dogPicture" src="./images/Ozzy.jpg" />
  <image class="pcPicture" src="./images/setup.jpg" />
- <image class="tennisPicture" src="./images/tennis.jpg" />
- <!-- connects app.js file -->
- <script src="./scripts/app.js"></script>
+ <image class="tennisPicture" src="./images/tennis.jpg" /> -->
+ <!-- connects .js files and jquery -->
+<main>
+  <!-- Add gallery together -->
+  <div class="gallery">
+    <img class="gamePicture" src="./images/Ozzy.jpg" alt="Mini Aussidoodle picture">
+    <p class="titles">This page is about me!</p>
+    <figcaption>The first photo I put up is of my dog, Ozzy, he is 1 years old and he is a mini
+    AussiDoodle(australian shepherd and mini poodle mix).He is a super happy guy, very anxious though.He enjoys herding cars
+    outside, which we are working on!</figcaption>
+    <br>
+    <figcaption>The second picture is of my pc setup, this is where I spend most of my nights playing games with my
+    friends or doing work, so I put it down as one of my hobbies!</figcaption>
+    <br>
+    <figcaption>The third picture is of me playing tennis in the summer.This is one of my hobbies and something I enjoy, I have 
+    been playing tennis since I was around 7 years old.I played competitively for a long time, but I did end up quitting that 
+    part in grade 12. I met my best friend playing in Ajax and now we go out and play for fun!</figcaption>
+  </div>
+</main>
+ <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+   integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+ <script type="module" src="./scripts/form.js"></script>
+ <script type="module" src="./scripts/user.js"></script>
+ <script type="module" src="./scripts/app.js"></script>
 </body>
 </html>   

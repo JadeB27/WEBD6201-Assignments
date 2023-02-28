@@ -51,15 +51,39 @@
    <li class="nav-item">
        <a class="nav-link" id="contactLink" href="contact.html">Contact Us</a>
      </li>
+   <!-- link for login page -->
+   <li class="nav-item">
+      <a class="nav-link" id="loginLink" href="login.html">Login</a>
+    </li>
+    <!-- register for login page -->
+    <li class="nav-item">
+      <a class="nav-link" id="registerLink" href="register.html">Register</a>
+    </li>
  </ul>
 
  <br>
- <!-- Pictures for product page -->
- <image class="gamePicture" src="./images/valorant.jpg" />
- <image class="showPicture" src="./images/ems.jpeg" />
- <image class="moviePicture" src="./images/movieposter.jpg" />
- <image class="jettPicture" src="./images/jett.jpg" />
- <!-- connects app.js file -->
- <script src="./scripts/app.js"></script>
+  <main>
+    <!-- Add gallery together -->
+    <div class="gallery">
+      <img class="productImg" src="./images/valorant.jpg" alt="valorant">
+      <p class="titles">This page displays three of my favourite pieces of media</p>
+      <figcaption>The first piece of media I chose was my favourite game, "Valorant". I have been playing the game for 2 years 
+      now, probably everyday, it has become my night routine to play before I go to sleep.</figcaption>
+      <br>
+      <figcaption>The second piece of media I chose is a TV-show called "The Walking Dead." The show actually just
+      finished its 11th season, and sadly ended this November. This is my favourite show because I have been watching it since
+      I was 8 and it is nostalgic for me.</figcaption>
+      <br>
+      <figcaption>The last piece of media I chose is a movie called "This is the End." I have watched
+      hundreds of movies throughout my life but this one, without fail, makes me laugh the most out of any movie I have seen,
+      no matter how many times I watch it.</figcaption>
+    </div>
+  </main>
+ <!-- connects .js files and jquery -->
+ <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+   integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+ <script type="module" src="./scripts/form.js"></script>
+ <script type="module" src="./scripts/user.js"></script>
+ <script type="module" src="./scripts/app.js"></script>
 </body>
 </html>   
