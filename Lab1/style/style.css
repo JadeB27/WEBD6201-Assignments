@@ -10,8 +10,8 @@ img{
     margin-right: auto;
     margin-bottom: 10px;
     width: 500px;
-    border-radius: 50px;
-    border: 6px double black;
+    /* border-radius: 50px;
+    border: 6px double black; */
     float: left;
     position: relative;
     margin-top: 70px;
@@ -143,4 +143,14 @@ it fixed */
 #errorMessage5
 {
     background-color: #ffcccb;
+}
+
+/* centers the title on blog page*/
+.blog-title{
+    text-align: center;
+}
+
+/* changes the background colour of my cards to beighe */
+.card{
+    background-color: beige;
 }

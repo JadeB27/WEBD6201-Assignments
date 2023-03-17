@@ -2,7 +2,7 @@ console.log("connected app");
 /*
 * Name: Jade Bedlington
 * Student ID: 100822822
-* Date Completed: 2023-02-16
+* Date Completed: 2023-02-28
 */
 
 //function to redirect the user to a certain page after 3 seconds.
