@@ -1,0 +1,23 @@
+{{#each users}}
+<div class="card card-body mb-2">
+    <label for="zoo">Zoo</label>
+    <p id="zoo">{{zoo}}</p>
+    <label for="scientificName">Scientific Name</label>
+    <p id="scientificName">{{scientificName}}</p>
+    <label for="commonName">Common Name</label>
+    <p id="commonName">{{commonName}}</p>
+    <label for="givenName">Given Name</label>
+    <p id="givenName">{{givenName}}</p>
+    <label for="gender">Gender</label>
+    <p id="gender">{{gender}}</p>
+    <label for="dob">Date Of Birth</label>
+    <p id="dob">{{dateOfBirth}}</p>
+    <label for="age">Age</label>
+    <p id="age">{{age}}</p>
+    <label for="isTransportable">Is Transportable</label>
+    <p id="isTransportable">{{isTransportable}}</p>
+    <a href="/edit-animal/{{_id}}" class="btn btn-dark btn-block">Edit Animal Details</a>
+</div>
+{{else}}
+<p>No Animals</p>
+{{/each}}
